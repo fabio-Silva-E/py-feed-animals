@@ -32,7 +32,7 @@ class Dog(Animal):
         print("The slippers delivered!")
 
 
-def feed_animals(animals: list) -> None:
+def feed_animals(animals: int) -> int:
     total = 0
     for animal in animals:
         total += animal.feed()
